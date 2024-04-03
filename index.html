@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <script
+      src="https://kit.fontawesome.com/b7ce600b8b.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div>
+        <p id="nav-logo">Murugappan Murugappan</p>
+      </div>
+      <div id="nav-link">
+        <a href="#"> About</a>
+        <a href="#">Experience</a>
+        <a href="#">Projects</a>
+        <a href="#">contact</a>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div id="hamburger-div">
+        <p id="nav-logo">Murugappan Murugappan</p>
+        <i
+          class="fa-solid fa-bars fa-2xl hamburger-icon"
+          id="hamburger-icon"
+          onclick="toggleMenu()"
+        ></i>
+      </div>
+      <div id="hamburger-link">
+        <a href="#"> About</a>
+        <a href="#">Experience</a>
+        <a href="#">Projects</a>
+        <a href="#">contact</a>
+      </div>
+    </nav>
+    <section>
+      <div class="hero">
+        <div class="img">
+          <img src="/Asserts/Cropped_Image.png" id="img" />
+        </div>
+        <div class="details">
+          <p>Hello, i'm</p>
+          <p class="two">Murugappan M</p>
+          <p class="three">Aspiring Programmer</p>
+          <div class="btn-container">
+            <button class="btn btn-color-2">Download CV</button>
+            <button class="btn btn-color-1">Contact Info</button>
+          </div>
+          <div class="icon-container">
+            <i
+              class="fa-brands fa-linkedin fa-2xl"
+              onclick="location.href='https://linkedin.com/in/murugappan-m-m'"
+            ></i>
+            <i
+              class="fa-brands fa-github fa-2xl"
+              onclick="location.href='https://github.com/Murugappankrishna'"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+  <script src="index.js"></script>
+</html>
