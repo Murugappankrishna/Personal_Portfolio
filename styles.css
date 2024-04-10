@@ -40,16 +40,24 @@ a,
 }
 #nav-logo:hover {
   cursor: default;
- 
 }
 @keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
 }
 
 @keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: rgb(85, 85, 85);
+  }
 }
 #nav-link {
   display: flex;
@@ -91,8 +99,8 @@ a {
 }
 section {
   padding-top: 4vh;
-  height: 83vh;
-  margin: 0 10rem;
+  height: 65vh;
+  margin: 0 7rem;
   box-sizing: border-box;
   min-height: fit-content;
 }
@@ -119,14 +127,12 @@ section {
 .two {
   font-size: 3rem;
   color: black;
-   overflow: hidden; 
-  border-right: .15em solid orange; 
-  white-space: nowrap; 
-  margin: 0 auto; 
-  letter-spacing: .15em;
-  animation: 
-  typing 3.5s steps(40, end),
-  blink-caret .75s step-end infinite;
+  overflow: hidden;
+  border-right: 0.15em solid rgb(85, 85, 85);
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.15em;
+  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 .three {
   font-size: 1.75rem;
@@ -189,4 +195,63 @@ section {
 }
 .icon-container i {
   margin-top: 1rem;
+}
+#about-me p {
+  text-align: center;
+}
+.text-p1 {
+  color: rgb(85, 85, 85);
+}
+.title {
+  font-family: Poppins, sans-serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #000;
+}
+.aboutme-container {
+  display: flex;
+  gap: 3rem;
+}
+.Experience-Education-Container {
+  display: flex;
+  flex-direction: row;
+}
+.side-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.Econtainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid lightgray;
+  padding: 2rem;
+  width: 70%;
+  gap: 0.5rem;
+  border-radius: 2rem;
+  min-width: 126.28px;
+}
+
+.fa-solid {
+  font-size: 2rem;
+
+  animation-iteration-count: 1 !important;
+}
+.div-about-me {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.Experience-Education-Container {
+  display: flex;
+  gap: 2rem;
+}
+img {
+  height: 400px;
+  width: 400px;
+}
+.side-container #about-me-content {
+  text-align: left;
+  line-height: 1.5;
 }
