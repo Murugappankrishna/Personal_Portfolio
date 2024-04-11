@@ -99,10 +99,10 @@ a {
 }
 section {
   padding-top: 4vh;
-  height: 65vh;
-  margin: 5rem 7rem;
+  height: max-content;
+  margin: 0 7rem;
   box-sizing: border-box;
-  min-height: fit-content;
+  
 }
 #img {
   height: 400px;
