@@ -18,5 +18,9 @@
    
     align-items: center;
   }
+.img img{
+height:275px;
+  width:275px;
+}
 }
 
