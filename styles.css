@@ -232,7 +232,9 @@ section {
   border-radius: 2rem;
   min-width: 126.28px;
 }
-
+.Econtainer p{
+color:black;
+}
 .fa-solid {
   font-size: 2rem;
 
