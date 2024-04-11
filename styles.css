@@ -114,9 +114,7 @@ section {
   justify-content: center;
   gap: 5rem;
 }
-.details {
-  width: 500px;
-}
+
 .details p {
   text-align: center;
   font-weight: 600;
