@@ -270,7 +270,7 @@ img {
 }
 
 .skill-container {
-  width: 100%;
+
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   column-gap: 2rem;
@@ -289,12 +289,12 @@ img {
 .skill {
   display: flex;
   gap: 4rem;
-  width: 100%;
+ 
   justify-content: center;
 }
 .dev {
   border: 1px rgb(85, 85, 85) solid;
   padding: 2rem;
   border-radius: 2rem;
-  width: 40%;
+  width: 100%;
 }
